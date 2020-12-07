@@ -1,0 +1,1 @@
+model = gensim.models.doc2vec.Doc2Vec(dm= 0, vector_size= 300, window= 10, min_count=1, down_sample= 1e-5, workers=cores, epochs= 200)
